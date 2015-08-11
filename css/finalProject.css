@@ -1,0 +1,116 @@
+html,
+body {
+    height: 100%;
+}
+
+hr {
+    width: 25%;
+    border: 1px solid black;
+}
+
+#landing {
+    height: 100%;
+    background-image: url(../img/c7_VIR_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#landing p {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+#button {
+    margin-top: 400px;
+}
+/* media query to make button fit on smaller screens*/
+
+@media screen and (max-width: 990px) {
+    #button {
+        margin-top: 300px;
+    }
+}
+
+#button a {
+    border: 1px solid whitesmoke;
+    padding: 25px 15px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    color: whitesmoke;
+}
+/* Map for phone view*/
+#address {
+    margin-left: 50px;
+}
+
+#map i {
+    padding-right: 30px; 
+    padding-top: 25px;
+}
+
+#aboutUs {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#aboutUs p {
+    text-align: justify;
+}
+
+#instructors {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#instructors p {
+    text-align: justify;
+}
+
+#events {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#events p {
+    text-align: justify;
+}
+
+#events .row {
+    margin-bottom: 40px;
+}
+#events img {
+    margin-bottom: 25px;
+}
+
+#video h2 {
+    margin-bottom: 75px;
+}
+
+.iframe {
+    width: 853px;  
+    height: 480px;
+}
+/*media query for video on phone/table */
+@media screen and (max-width: 768px) {
+    .iframe {
+        width: 560px;
+        height: 315;
+    }
+}
+
+footer {
+    background-color: grey;
+    margin-top: 75px;
+}
+
+footer .row {
+    margin-top: 20px;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
